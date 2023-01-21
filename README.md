@@ -27,3 +27,6 @@ The following command can confirm installation of flask:
 should output something like
 `2.2.2`
 
+## 4. Running Flask Web App
+`export FLASK_APP=home && export FLASK_ENV=development && flask run`
+If everything goes well, you should have a localhost running with a message like "* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)," where you can view your current project.
