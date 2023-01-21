@@ -17,7 +17,9 @@ Create an OpenAI account and get a secret key here https://openai.com/api/
 
 ## 3. Dependencies
 `pip install flask`
+
 `python -m pip install python-dotenv`
+
 `pip install openai`
 
 The following command can confirm installation of flask:
