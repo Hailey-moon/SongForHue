@@ -1,4 +1,4 @@
-#!/Users/haileymoon/Documents/GitHub/SongForHue/venv/bin/python3
+#!/Users/haileymoon/Documents/GitHub/SongForHue/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
