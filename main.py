@@ -1,8 +1,11 @@
 import os
 import openai
 import flask
+from dotenv import load_dotenv
 
-# openai.api_key = "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"
+load_dotenv()
+
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # response = openai.Completion.create(
 #   model="text-davinci-003",
