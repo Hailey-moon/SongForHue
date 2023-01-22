@@ -22,6 +22,8 @@ Create an OpenAI account and get a secret key here https://openai.com/api/
 
 `pip install openai`
 
+`pip install requests`
+
 The following command can confirm installation of flask:
 `python -c "import flask; print(flask.__version__)"`
 should output something like
