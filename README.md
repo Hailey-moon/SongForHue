@@ -32,3 +32,6 @@ should output something like
 ## 4. Running Flask Web App
 `export FLASK_APP=home && export FLASK_DEBUG=True && flask run`
 If everything goes well, you should have a localhost running with a message like "* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)," where you can view your current project.
+
+
+Right now, this web app takes a text input and returns the corresponding "mood" color by changing the background color. My vision is to have the user connect their Spotify, and the background changes as the song plays based on the current lyric. Hiatus for now!
