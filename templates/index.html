@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>Song for Hue</title>
+    <style>
+        body {
+            background-color: {{mood}};
+        }
+    </style>
 </head>
 <body>
-   <h1>Welcome to Song for Hue!</h1>
+   <h1 id="heading">Enter a word to find its color!</h1>
+   <form action="" method="POST">
+        <label>How are you feeling today?</label>
+        <input type="text" name="mood" value="{{request.form.mood}}">
+        <button type="submit" onclick="myFunction()">Submit</button>
+   </form>
+   <!-- <h2 id="moodText">{{mood}}</h2> -->
+
+   <!-- <script>
+        var moodText = document.getElementById("moodText").innerHTML;
+        window.alert(moodText)
+   </script> -->
 </body>
 </html>
